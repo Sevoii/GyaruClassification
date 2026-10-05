@@ -1,6 +1,7 @@
 """Flask UI/API for interchangeable classifiers under src/models/."""
 from __future__ import annotations
 
+import argparse
 import importlib
 import io
 import os
@@ -101,7 +102,17 @@ def api_error(error):
     return jsonify(error=str(getattr(error, "description", error))), error.code
 
 
-if __name__ == "__main__":
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Run the local gyaru classifier web app.")
+    parser.add_argument("--siglip-400-heads", type=Path, default=None,
+                        help="Trained .safetensors head bundle for gyaru_siglip_400")
+    args = parser.parse_args()
+    if args.siglip_400_heads is not None:
+        MODEL_TYPES["gyaru_siglip_400"].heads_path = args.siglip_400_heads
     print(f"Available models: {', '.join(MODEL_TYPES)}; device={DEVICE}")
     print(f"Open http://0.0.0.0:{PORT}")
     app.run(host="0.0.0.0", port=PORT, threaded=True, debug=False)
+
+
+if __name__ == "__main__":
+    main()

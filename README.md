@@ -83,13 +83,15 @@ To train the larger SigLIP SO400M variant, use its dedicated script. It has the
 same arguments and frozen-encoder training flow, but downloads
 `google/siglip-so400m-patch14-384` and writes a separate head bundle. It needs
 substantially more GPU memory than the base encoder; reduce `--batch-size` if
-needed. Set its separate environment variable before starting the app:
+needed. Pass its trained head bundle to the app:
 
 ```powershell
 .\.venv\Scripts\python.exe src\train_siglip_400.py --output artifacts\gyaru_siglip_400_heads.safetensors
-$env:GYARU_SIGLIP_400_HEADS = "artifacts\gyaru_siglip_400_heads.safetensors"
-.\.venv\Scripts\python.exe src\app.py
+.\.venv\Scripts\python.exe src\app.py --siglip-400-heads artifacts\gyaru_siglip_400_heads.safetensors
 ```
+
+Use the same `--siglip-400-heads` option with `src\test_models.py` when
+evaluating this packaged model.
 
 Images are EXIF-oriented, converted to RGB, mildly rotated with an expanded
 canvas, and resized with aspect ratio preserved and padding. Training also uses

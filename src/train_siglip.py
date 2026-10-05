@@ -73,7 +73,7 @@ def score_head(head, features: torch.Tensor, targets: torch.Tensor) -> tuple[dic
 
 def main(default_encoder: str = DEFAULT_ENCODER,
          default_output: Path = Path("artifacts/gyaru_siglip_heads.safetensors"),
-         heads_environment_variable: str = "GYARU_SIGLIP_HEADS") -> None:
+         head_usage_instruction: str = "Set GYARU_SIGLIP_HEADS to this file to use it in the app.") -> None:
     parser = argparse.ArgumentParser(description="Train a binary head from a pretrained, frozen base SigLIP encoder.")
     parser.add_argument("--data-dir", type=Path, default=Path("data/images"))
     parser.add_argument("--splits", type=Path, default=Path("artifacts/splits_seed_42.json"))
@@ -151,7 +151,7 @@ def main(default_encoder: str = DEFAULT_ENCODER,
     args.output.with_suffix(".history.json").write_text(json.dumps(history, indent=2), encoding="utf-8")
     print(f"Saved best validation-F1 head to {args.output}")
     print("The held-out test partition is embedded in the split manifest and was not used for training or selection.")
-    print(f"Set {heads_environment_variable} to this file to use it in the app.")
+    print(head_usage_instruction.format(output=args.output))
 
 
 if __name__ == "__main__":
