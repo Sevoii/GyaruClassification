@@ -5,4 +5,4 @@ safetensors
 timm
 transformers
 torch==2.14.1+cu132
-torchvision
+torchvision==2.14.1+cu132

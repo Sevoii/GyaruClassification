@@ -103,5 +103,5 @@ def api_error(error):
 
 if __name__ == "__main__":
     print(f"Available models: {', '.join(MODEL_TYPES)}; device={DEVICE}")
-    print(f"Open http://127.0.0.1:{PORT}")
-    app.run(host="127.0.0.1", port=PORT, threaded=True, debug=False)
+    print(f"Open http://0.0.0.0:{PORT}")
+    app.run(host="0.0.0.0", port=PORT, threaded=True, debug=False)
