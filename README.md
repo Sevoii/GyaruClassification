@@ -10,7 +10,7 @@ repository root:
 .\.venv\Scripts\python.exe src\app.py
 ```
 
-Open `http://127.0.0.1:8800`. The model picker reads adapters discovered under
+Open `http://127.0.0.1:8080`. The model picker reads adapters discovered under
 `src/models/`. Each model is a package with a `model.py` exporting a
 `MODEL_CLASS`; that class implements `src/models/interface.py` (`load(device)`,
 `predict(image)`, and metadata). The shared prediction response has `top`,

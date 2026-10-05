@@ -16,7 +16,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 UI = HERE / "ui.html"
-PORT = int(os.environ.get("PORT", "8800"))
+PORT = int(os.environ.get("PORT", "8080"))
 MAX_BYTES = 20 * 1024 * 1024
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
