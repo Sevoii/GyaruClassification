@@ -71,11 +71,15 @@ def score_head(head, features: torch.Tensor, targets: torch.Tensor) -> tuple[dic
     return binary_metrics(labels, [int(p >= 0.5) for p in probabilities]), probabilities
 
 
-def main() -> None:
+def main(default_encoder: str = DEFAULT_ENCODER,
+         default_output: Path = Path("artifacts/gyaru_siglip_heads.safetensors"),
+         heads_environment_variable: str = "GYARU_SIGLIP_HEADS") -> None:
     parser = argparse.ArgumentParser(description="Train a binary head from a pretrained, frozen base SigLIP encoder.")
     parser.add_argument("--data-dir", type=Path, default=Path("data/images"))
     parser.add_argument("--splits", type=Path, default=Path("artifacts/splits_seed_42.json"))
-    parser.add_argument("--output", type=Path, default=Path("artifacts/gyaru_siglip_heads.safetensors"))
+    parser.add_argument("--encoder", default=default_encoder,
+                        help="Hugging Face SigLIP vision encoder to freeze")
+    parser.add_argument("--output", type=Path, default=default_output)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--epochs", type=int, default=50)
     parser.add_argument("--batch-size", type=int, default=32)
@@ -90,7 +94,7 @@ def main() -> None:
         parser.error(f"Split manifest not found: {args.splits}")
 
     set_seed(args.seed)
-    model_name = DEFAULT_ENCODER
+    model_name = args.encoder
     split = load_split(args.splits)
     if split.get("seed") != args.seed:
         parser.error("Existing manifest seed differs from --seed; choose a matching seed or another --splits path")
@@ -147,7 +151,7 @@ def main() -> None:
     args.output.with_suffix(".history.json").write_text(json.dumps(history, indent=2), encoding="utf-8")
     print(f"Saved best validation-F1 head to {args.output}")
     print("The held-out test partition is embedded in the split manifest and was not used for training or selection.")
-    print("Set GYARU_SIGLIP_HEADS to this file to use it in the app.")
+    print(f"Set {heads_environment_variable} to this file to use it in the app.")
 
 
 if __name__ == "__main__":

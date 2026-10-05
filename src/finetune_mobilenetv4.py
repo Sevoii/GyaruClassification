@@ -15,6 +15,7 @@ from torch.utils.data import DataLoader
 
 from gyaru_dataset import GyaruDataset, build_transform, create_balanced_split, load_split, prepare_split
 from metrics import binary_metrics, format_metrics
+from mobilenetv4_checkpoint import load_checkpoint, save_checkpoint
 
 
 def set_seed(seed: int) -> None:
@@ -52,7 +53,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", type=Path, default=Path("data/images"))
     parser.add_argument("--splits", type=Path, default=Path("artifacts/splits_seed_42.json"))
-    parser.add_argument("--output", type=Path, default=Path("artifacts/mobilenetv4_gyaru.pt"))
+    parser.add_argument("--output", type=Path, default=Path("artifacts/mobilenetv4_gyaru.safetensors"))
     parser.add_argument("--resume", type=Path, help="Continue fine-tuning from a saved checkpoint's model weights")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--epochs", type=int, default=10)
@@ -67,8 +68,10 @@ def main() -> None:
     args = parser.parse_args()
     if min(args.epochs, args.batch_size, args.image_size, args.patience) < 1 or args.workers < 0 or args.learning_rate <= 0:
         parser.error("Epochs, batch size, image size, patience and learning rate must be positive; workers >= 0")
-    if args.output.exists():
-        parser.error("Output checkpoint already exists; choose a new --output to preserve the previous run")
+    if args.output.suffix != ".safetensors":
+        parser.error("--output must end in .safetensors")
+    if args.output.exists() or args.output.with_suffix(".json").exists():
+        parser.error("Output weights or metadata already exists; choose a new --output to preserve the previous run")
     if args.resume is not None and not args.resume.is_file():
         parser.error(f"Resume checkpoint does not exist: {args.resume}")
 
@@ -89,7 +92,7 @@ def main() -> None:
     model = timm.create_model(args.model, pretrained=args.resume is None, num_classes=1).to(device)
     resume_checkpoint = None
     if args.resume is not None:
-        resume_checkpoint = torch.load(args.resume, map_location=device, weights_only=False)
+        resume_checkpoint = load_checkpoint(args.resume)
         if resume_checkpoint.get("model_name") != args.model:
             parser.error("Resume checkpoint model does not match --model")
         if resume_checkpoint.get("image_size") != args.image_size:
@@ -122,11 +125,11 @@ def main() -> None:
     stale = 0
     history_path = args.resume.with_suffix(".history.json") if args.resume else None
     history = json.loads(history_path.read_text()) if history_path and history_path.is_file() else []
+    args.output.parent.mkdir(parents=True, exist_ok=True)
     if resume_checkpoint:
         # Seed the new output with the best known checkpoint so it remains usable
         # even if none of the continuation epochs improves validation F1.
-        torch.save(resume_checkpoint, args.output)
-    args.output.parent.mkdir(parents=True, exist_ok=True)
+        save_checkpoint(resume_checkpoint, args.output)
     for epoch in range(start_epoch + 1, start_epoch + args.epochs + 1):
         model.train()
         total_loss = 0.0
@@ -151,11 +154,11 @@ def main() -> None:
         if metrics["f1"] > best_f1:
             best_f1 = metrics["f1"]
             stale = 0
-            torch.save({"model_state": model.state_dict(), "model_name": args.model, "image_size": args.image_size,
-                        "seed": split["seed"], "split_path": str(args.splits), "split": split,
-                        "preprocessing": preprocessing, "threshold": 0.5, "epoch": epoch,
-                        "settings": {k: str(v) if isinstance(v, Path) else v for k, v in vars(args).items()},
-                        "validation_metrics": metrics}, args.output)
+            save_checkpoint({"model_state": model.state_dict(), "model_name": args.model, "image_size": args.image_size,
+                             "seed": split["seed"], "split_path": str(args.splits), "split": split,
+                             "preprocessing": preprocessing, "threshold": 0.5, "epoch": epoch,
+                             "settings": {k: str(v) if isinstance(v, Path) else v for k, v in vars(args).items()},
+                             "validation_metrics": metrics}, args.output)
             print(f"Saved best checkpoint to {args.output}")
         else:
             stale += 1

@@ -6,6 +6,7 @@ from PIL import Image, ImageOps
 
 from models.interface import Classifier
 from gyaru_dataset import build_transform
+from mobilenetv4_checkpoint import load_checkpoint
 
 MODEL_CLASS = "MobileNetV4GyaruClassifier"
 
@@ -15,13 +16,12 @@ class MobileNetV4GyaruClassifier(Classifier):
     display_name = "Fine-tuned MobileNetV4"
 
     def load(self, device):
-        import os
+        from os import environ
         from pathlib import Path
-        bundled_checkpoint = Path(__file__).with_name("model_internals") / "checkpoint.pt"
-        checkpoint_path = Path(os.environ.get("GYARU_MOBILENET_CHECKPOINT", bundled_checkpoint))
-        if not checkpoint_path.is_file():
-            raise FileNotFoundError(f"Fine-tuned MobileNetV4 checkpoint missing: {checkpoint_path}")
-        checkpoint = torch.load(checkpoint_path, map_location="cpu", weights_only=True)
+
+        bundled_checkpoint = Path(__file__).with_name("model_internals") / "checkpoint.safetensors"
+        checkpoint_path = Path(environ.get("GYARU_MOBILENET_CHECKPOINT", bundled_checkpoint))
+        checkpoint = load_checkpoint(checkpoint_path)
         self.model = timm.create_model(checkpoint["model_name"], pretrained=False, num_classes=1)
         self.model.load_state_dict(checkpoint["model_state"])
         self.model = self.model.to(device).eval()

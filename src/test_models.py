@@ -19,6 +19,7 @@ from PIL import Image, ImageOps
 from finetune_mobilenetv4 import predict
 from gyaru_dataset import GyaruDataset, build_transform, load_split, prepare_split, sample_path
 from metrics import binary_metrics, format_metrics
+from mobilenetv4_checkpoint import load_checkpoint
 
 HERE = Path(__file__).resolve().parent
 if str(HERE) not in sys.path:
@@ -63,7 +64,7 @@ def probability_metrics(targets: list[int], probabilities: list[float]) -> dict[
 
 
 def evaluate_checkpoint(path: Path, args, device: torch.device) -> dict:
-    checkpoint = torch.load(path, map_location="cpu", weights_only=True)
+    checkpoint = load_checkpoint(path)
     if "split" not in checkpoint:
         raise ValueError("checkpoint has no embedded split; retrain with the current training script")
     split = checkpoint["split"]
@@ -163,7 +164,7 @@ def evaluate_adapter(model_id: str, adapter_type: type, args, device: torch.devi
 def main() -> None:
     parser = argparse.ArgumentParser(description="Evaluate saved classifier checkpoints on their held-out test sets.")
     parser.add_argument("checkpoints", nargs="*", type=Path,
-                        help="Checkpoint paths; defaults to every .pt file in artifacts/")
+                        help="Checkpoint paths; defaults to every .safetensors file in artifacts/")
     parser.add_argument("--checkpoint", dest="checkpoints_option", action="append", type=Path,
                         help="Select a checkpoint (repeatable; alternative to positional paths)")
     parser.add_argument("--splits", type=Path, default=None, help="Optionally verify each checkpoint's embedded split")
@@ -171,6 +172,8 @@ def main() -> None:
                         help="Select a model package from src/models by id (repeatable)")
     parser.add_argument("--models-dir", type=Path, default=HERE / "models",
                         help="Directory containing classifier packages")
+    parser.add_argument("--siglip-400-heads", type=Path, default=None,
+                        help="Trained .safetensors head bundle for gyaru_siglip_400")
     parser.add_argument("--data-dir", type=Path, default=Path("data/images"))
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--workers", type=int, default=0)
@@ -182,9 +185,11 @@ def main() -> None:
         parser.error("Threshold must be in [0, 1], batch size positive, workers nonnegative")
     selected = args.checkpoints_option or args.checkpoints
     has_selection = bool(selected or args.models_option)
-    checkpoints = selected if selected else ([] if has_selection else sorted(Path("artifacts").glob("*.pt")))
+    checkpoints = selected if selected else ([] if has_selection else sorted(Path("artifacts").glob("*.safetensors")))
     checkpoints = list(dict.fromkeys(checkpoints))
     adapters = discover_model_adapters(args.models_dir)
+    if args.siglip_400_heads is not None:
+        adapters["gyaru_siglip_400"].heads_path = args.siglip_400_heads
     selected_models = args.models_option if args.models_option else ([] if has_selection else sorted(adapters))
     unknown = [model for model in selected_models if model not in adapters]
     if unknown:

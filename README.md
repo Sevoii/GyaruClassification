@@ -20,18 +20,22 @@ included when supported. The Flask endpoints are `GET /models` and
 
 The SigLIP adapter and its portable NumPy heads are in
 `src/models/gyaru_siglip/`; downloaded SigLIP encoder weights use the Hugging
-Face cache. The fine-tuned MobileNetV4 adapter is in
+Face cache. The larger SigLIP SO400M adapter is in
+`src/models/gyaru_siglip_400/`; train or configure its binary head before
+selecting it in the app. The fine-tuned MobileNetV4 adapter is in
 `src/models/mobilenetv4_gyaru/`, with its current fine-tuned checkpoint in
-`model_internals/checkpoint.pt`. Set `GYARU_MOBILENET_CHECKPOINT` to use another
-compatible training checkpoint.
+`model_internals/checkpoint.safetensors` and its adjacent metadata JSON file.
+Set `GYARU_MOBILENET_CHECKPOINT` to another `.safetensors` file with the same
+JSON sidecar to use a different compatible training checkpoint. No MobileNetV4
+checkpoint is unpickled by the application.
 No joblib files are needed. Flask's built-in server is suitable for this local
 testing UI; use a production WSGI server if exposing it beyond the local machine.
 
 Run commands from the project root using the existing virtual environment:
 
 ```powershell
-.\.venv\Scripts\python.exe src\finetune_mobilenetv4.py --output artifacts\gyaru_v2.pt
-.\.venv\Scripts\python.exe src\test_mobilenetv4.py --checkpoint artifacts\gyaru_v2.pt
+.\.venv\Scripts\python.exe src\finetune_mobilenetv4.py --output artifacts\gyaru_v2.safetensors
+.\.venv\Scripts\python.exe src\test_models.py --checkpoint artifacts\gyaru_v2.safetensors
 ```
 
 Training always loads pretrained ImageNet weights. All layers are fine-tuned;
@@ -54,7 +58,7 @@ output path. The script restores the model weights and prior best checkpoint,
 then runs the requested number of additional epochs with a fresh optimizer:
 
 ```powershell
-.\.venv\Scripts\python.exe src\finetune_mobilenetv4.py --splits artifacts\splits_seed_42.json --resume artifacts\gyaru_v2.pt --epochs 20 --patience 6 --output artifacts\gyaru_v2_continued.pt
+.\.venv\Scripts\python.exe src\finetune_mobilenetv4.py --splits artifacts\splits_seed_42.json --resume artifacts\gyaru_v2.safetensors --epochs 20 --patience 6 --output artifacts\gyaru_v2_continued.safetensors
 ```
 
 Train a new binary gyaru head from the pretrained base SigLIP encoder with the
@@ -74,6 +78,18 @@ The script starts from `google/siglip-base-patch16-384` and uses
 `artifacts\splits_seed_42.json` by default. Choose a new output filename for
 each training run. It writes a sibling `.history.json` with per-epoch validation
 metrics.
+
+To train the larger SigLIP SO400M variant, use its dedicated script. It has the
+same arguments and frozen-encoder training flow, but downloads
+`google/siglip-so400m-patch14-384` and writes a separate head bundle. It needs
+substantially more GPU memory than the base encoder; reduce `--batch-size` if
+needed. Set its separate environment variable before starting the app:
+
+```powershell
+.\.venv\Scripts\python.exe src\train_siglip_400.py --output artifacts\gyaru_siglip_400_heads.safetensors
+$env:GYARU_SIGLIP_400_HEADS = "artifacts\gyaru_siglip_400_heads.safetensors"
+.\.venv\Scripts\python.exe src\app.py
+```
 
 Images are EXIF-oriented, converted to RGB, mildly rotated with an expanded
 canvas, and resized with aspect ratio preserved and padding. Training also uses
