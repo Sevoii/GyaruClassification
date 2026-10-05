@@ -97,6 +97,23 @@ precision/recall/F1 use zero; undefined error rates use null. Do not tune the
 threshold using test results. Legacy checkpoints selected on the test set must
 be retrained. Training history is saved beside the checkpoint.
 
+## Held-out evaluation (seed 42)
+
+Both models were trained and evaluated with the split generated using seed 42.
+Results below are from the 400-image held-out test partition at a 0.50 threshold.
+
+```text
+mobilenetv4_gyaru (400 images, threshold=0.50)
+accuracy=0.8275  precision=0.8325  recall=0.8200  f1=0.8262
+TP=164  TN=167  FP=33  FN=36
+specificity=0.8350  balanced_accuracy=0.8275  MCC=0.6551  ROC-AUC=0.8929  AP=0.9011  Brier=0.1562  log_loss=1.3500
+
+gyaru_siglip (400 images, threshold=0.50)
+accuracy=0.8875  precision=0.8856  recall=0.8900  f1=0.8878
+TP=178  TN=177  FP=23  FN=22
+specificity=0.8850  balanced_accuracy=0.8875  MCC=0.7750  ROC-AUC=0.9640  AP=0.9664  Brier=0.0789  log_loss=0.2496
+```
+
 Limitations and further experiments:
 
 - Exact file duplicates and data changes are rejected. Re-encoded images, alternate
