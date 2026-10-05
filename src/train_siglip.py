@@ -15,7 +15,7 @@ from torch import nn
 from torch.utils.data import DataLoader
 from transformers import AutoImageProcessor, SiglipVisionModel
 
-from gyaru_dataset import load_split, prepare_split
+from gyaru_dataset import load_split, prepare_split, sample_path
 from metrics import binary_metrics, format_metrics
 
 
@@ -37,7 +37,7 @@ def embed_rows(rows: list[dict], root: Path, processor, encoder, device: torch.d
 
         def __getitem__(self, index):
             row = rows[index]
-            with Image.open(root / row["path"]) as source:
+            with Image.open(sample_path(root, row["path"])) as source:
                 image = ImageOps.exif_transpose(source).convert("RGB")
             return image, int(row["label"])
 

@@ -17,6 +17,11 @@ IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)
 
 
+def sample_path(root: Path, value: str) -> Path:
+    """Build a host-native path from a manifest entry created on any OS."""
+    return root / Path(value.replace("\\", "/"))
+
+
 def _valid_images(directory: Path) -> list[Path]:
     """Return decodable image files, excluding corrupt files before sampling."""
     files: list[Path] = []
@@ -62,8 +67,8 @@ def create_balanced_split(data_dir: Path, split_path: Path, seed: int, samples_p
     root = data_dir.parent
     payload = {"seed": seed, "data_dir": str(data_dir), "samples_per_class": samples_per_class,
                "test_fraction": test_fraction, "labels": {"0": "not_gyaru", "1": "gyaru"},
-               "train": [{"path": str(path.relative_to(root)), "label": label} for path, label in train],
-               "test": [{"path": str(path.relative_to(root)), "label": label} for path, label in test]}
+               "train": [{"path": path.relative_to(root).as_posix(), "label": label} for path, label in train],
+               "test": [{"path": path.relative_to(root).as_posix(), "label": label} for path, label in test]}
     split_path.parent.mkdir(parents=True, exist_ok=True)
     split_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
     return payload
@@ -98,7 +103,7 @@ def prepare_split(split: dict, root: Path) -> dict:
         for row in split[partition]:
             if row["label"] not in (0, 1):
                 raise ValueError(f"Invalid label: {row}")
-            path = (root / row["path"]).resolve()
+            path = sample_path(root, row["path"]).resolve()
             if not path.is_relative_to(root.resolve()):
                 raise ValueError(f"Path escapes data root: {path}")
             digest = hashlib.sha256(path.read_bytes()).hexdigest()
@@ -146,6 +151,6 @@ class GyaruDataset(Dataset):
 
     def __getitem__(self, index: int):
         sample = self.samples[index]
-        with Image.open(self.root / sample["path"]) as image:
+        with Image.open(sample_path(self.root, sample["path"])) as image:
             image = ImageOps.exif_transpose(image).convert("RGB")
         return self.transform(image), int(sample["label"])

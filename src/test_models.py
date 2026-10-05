@@ -17,7 +17,7 @@ from torch.utils.data import DataLoader
 from PIL import Image, ImageOps
 
 from finetune_mobilenetv4 import predict
-from gyaru_dataset import GyaruDataset, build_transform, load_split, prepare_split
+from gyaru_dataset import GyaruDataset, build_transform, load_split, prepare_split, sample_path
 from metrics import binary_metrics, format_metrics
 
 HERE = Path(__file__).resolve().parent
@@ -129,7 +129,7 @@ def evaluate_adapter(model_id: str, adapter_type: type, args, device: torch.devi
     targets, probabilities, predictions = [], [], []
     rows = split["test"]
     for row in rows:
-        with Image.open(args.data_dir.parent / row["path"]) as source:
+        with Image.open(sample_path(args.data_dir.parent, row["path"])) as source:
             image = ImageOps.exif_transpose(source).convert("RGB")
             result = adapter.predict(image)
         target = int(row["label"])
