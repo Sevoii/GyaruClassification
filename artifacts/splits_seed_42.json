@@ -1,0 +1,8014 @@
+{
+  "seed": 42,
+  "data_dir": "data\\images",
+  "samples_per_class": 1000,
+  "test_fraction": 0.2,
+  "labels": {
+    "0": "not_gyaru",
+    "1": "gyaru"
+  },
+  "train": [
+    {
+      "path": "images\\lolita\\7001074.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5003181.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5720219.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5894575.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7047104.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4569420.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7139076.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6995494.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7014570.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5443942.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7094777.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5447197.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6981086.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6401643.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6962896.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6462353.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4313650.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6421288.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6330645.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5675510.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7190749.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6209461.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6790868.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4636463.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6910610.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6997108.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7065569.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5581092.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7108756.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6536840.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6126139.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6460658.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6010177.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4632937.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5991682.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6859689.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4749734.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\6244910.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6909376.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6563079.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6483527.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5579761.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7191585.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5584286.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6705405.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6370822.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4928396.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5303794.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6484580.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6544491.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7065276.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6727109.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5294313.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6361083.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6430529.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6500212.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5997968.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5153043.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6927983.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5473712.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4880748.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4143571.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6659115.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6238731.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6427945.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6806346.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5128053.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5298199.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5565488.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5436194.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5841919.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6666936.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7185390.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5330112.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6532733.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5845239.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6517473.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5962402.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4201783.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5886801.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7136638.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6456106.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5378215.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5448550.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6918868.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6980428.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5780135.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5645335.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6201247.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5279112.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5704396.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6425115.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6690215.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5512561.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4795777.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6446417.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6624523.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6259543.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4729977.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7175633.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5074420.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5308025.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6640260.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5035305.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5837415.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7099773.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7204001.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5887077.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7121000.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6970639.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6152924.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7082292.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4403574.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6615367.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7188130.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6142182.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6733802.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5157915.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6009317.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6862723.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4714514.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6790048.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5599843.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4393343.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5922012.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5602414.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7006671.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5420844.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6283157.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6842897.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6653905.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6369362.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6445896.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6893352.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6002125.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5750133.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6587572.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5115887.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6193865.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5835091.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5442281.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5342631.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7180153.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6517461.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6211412.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7132343.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6303470.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4973863.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5071180.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5652267.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6866322.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6981706.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5673656.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5137230.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7053603.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6153418.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6937236.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6320953.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5253833.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6037889.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6922400.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5075933.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4706227.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6113697.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6901510.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6036744.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6981707.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4890607.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6261492.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4664913.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5036970.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7090740.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4913129.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5569054.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7130921.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6948340.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6732428.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6222709.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7009154.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6640592.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7176440.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6286827.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6102233.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5711516.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5679765.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6844700.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5609720.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5109243.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6946705.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6840142.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6069408.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6602302.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4917928.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4409603.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5801604.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7038510.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6752458.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7084069.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5713214.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6584515.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6350114.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6821574.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6962565.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6260859.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5438223.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5744849.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5784268.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6931654.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7064805.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4272886.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5611698.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5645935.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7017757.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5778129.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7065040.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6123264.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6608036.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4758205.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5821639.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6713640.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6914693.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4641038.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6628635.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6195887.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5416466.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6428358.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7050518.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5767648.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5930091.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4693211.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5176342.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6950629.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4505524.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7024465.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6265043.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7069347.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6482486.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6326987.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5791002.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6814507.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6630699.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6478346.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6347980.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7198497.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5302535.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4939174.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6196762.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7192267.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5744103.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6064973.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5477732.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5971534.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7129568.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5647574.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6001669.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5973457.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4760723.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7041646.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\5348302.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5112919.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5801127.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5827289.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7114323.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4959324.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6977375.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5611703.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7193777.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6298939.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5956573.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6470421.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7139575.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4800717.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6715478.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4947134.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5666366.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6914088.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6770305.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6257137.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6417922.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5200234.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4446994.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6988724.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6932674.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5694439.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4920748.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5820641.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5043120.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5406076.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6769822.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6752760.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6156189.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6996632.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6193620.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7148616.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4028845.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7108209.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5068265.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7030343.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5715878.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5784923.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7041134.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4701640.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6566894.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5274216.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6132956.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6390963.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7174092.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5410291.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5586506.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6603862.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7006492.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5829296.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5885163.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7080236.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6511257.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5116130.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6954161.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6679385.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5252363.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6434320.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7164708.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4653881.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5521148.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5529562.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6384982.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5233213.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7068356.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4963248.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6622331.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7062379.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6394845.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5502894.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6330078.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6622017.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7029812.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6397101.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6775136.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7000099.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5669490.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7138720.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7107740.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5356839.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5715881.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5519779.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6652279.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6375433.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5939880.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4917261.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4512356.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6942754.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6881365.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6561745.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6823082.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7072069.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6959323.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5616804.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5097380.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6732409.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4602986.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6848513.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6273115.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5554592.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5583302.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4653093.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7176078.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5845233.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7030614.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6193840.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6787938.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6827252.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5992873.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6491566.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7201331.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4997352.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6346399.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6757443.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6228903.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6408183.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6235143.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6961309.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5809134.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6459891.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6961691.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6504562.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6193832.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6490714.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6863022.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5979762.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7144501.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5392475.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5227159.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6451722.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6991077.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5643692.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5607768.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4902196.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7074433.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7180058.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5622158.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5371072.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5768352.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6188128.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4292281.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6912745.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6583707.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6690075.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6707772.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5788320.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4349247.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6987942.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6225785.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6389781.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5737531.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7114539.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5785059.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4855536.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6854703.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6967174.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\7087654.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6248875.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7146999.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6904160.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6690246.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6775218.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5250317.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6969703.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7066388.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4762587.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7060939.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5381660.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6148818.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5597666.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5768713.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6566768.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6115255.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7002749.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6007408.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6667219.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7198782.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6626669.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6095084.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6903653.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7192505.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6996560.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6938426.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7018344.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5439358.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5384640.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6903621.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6966030.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6435404.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6352996.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6859052.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5763661.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7053400.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6139254.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5310767.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6346080.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5357428.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6841328.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5115144.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5866228.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5280689.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5166049.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7040353.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6872134.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6935671.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6590169.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6982475.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4575680.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6972816.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6535609.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5160476.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6434278.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5925498.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5235107.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5868911.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6817322.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6351418.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6143370.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7060275.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6138961.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7177023.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5740640.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7062570.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5309189.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6788295.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7132883.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4884578.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6651742.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5833390.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4816636.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7185733.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4684895.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6637287.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6842755.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5888576.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7158376.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5105875.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5241116.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5296764.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4246554.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4592508.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6515472.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5278309.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4816529.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4565920.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6193830.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7062406.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5959082.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5618172.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4396719.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5737529.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6820691.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6438683.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\4355787.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7075807.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4796477.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6646098.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5821090.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7190166.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7097137.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6872344.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7091496.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5893011.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6719990.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4382137.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5202708.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5588900.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6466198.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4725704.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7130382.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6127859.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6318354.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7138255.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7159164.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6453161.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5282066.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5695585.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6922152.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4709478.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6873529.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5386962.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5644574.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4999459.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7182152.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7054394.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6753321.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5034687.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5307605.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6521036.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6000859.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4633520.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6579182.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6941978.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5367179.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6235137.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6437938.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6919573.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7168372.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4696972.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5126747.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6746650.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4578054.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7200448.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4895912.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6024114.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5526648.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6190230.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6873430.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6656820.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5981415.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4586308.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4717650.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7146636.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4994312.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6682839.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6059274.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6766395.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4364514.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6222577.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5737742.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6365910.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5339072.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6545538.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4866445.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6360962.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7122370.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5747095.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5672043.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6014200.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6037945.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5754630.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6715959.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4856399.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4573287.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6935502.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7094046.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6483567.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6010973.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6273502.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6952538.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5054687.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5609043.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7178729.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6623691.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7065248.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6932651.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4900365.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6854708.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4961288.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4837802.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7146303.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4990995.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6442233.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4989427.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6697272.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5853904.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7144653.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4979403.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5892543.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5339674.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5166287.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5262609.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6174476.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5713762.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7109436.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6059915.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6306902.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5890156.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4865174.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6064878.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6390672.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7099607.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6501941.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7133116.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6520990.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4801215.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7183121.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5614745.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6235186.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5748394.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7065618.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6637810.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6170378.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5287988.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5616065.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5853978.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6235147.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4639958.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7101936.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5842330.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7163656.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6076484.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6880573.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6405615.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5433482.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5739100.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5520036.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4711156.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5051190.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6932377.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6302205.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6142324.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4910797.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7074590.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5509357.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6408586.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6964630.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6405162.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6220562.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6398441.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5948776.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6650489.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6988804.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6963327.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4583459.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5238448.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7141122.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5235489.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6688451.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5862008.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5453069.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5838902.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4121270.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5656388.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4613143.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4386358.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6391081.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6742639.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6389212.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4993605.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6074995.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6574939.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6443218.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5070389.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5979808.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6499374.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6565955.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6543225.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4774995.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4117291.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7027564.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5556967.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6667775.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6942528.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6333692.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7043259.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5106129.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5421828.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6786905.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5664012.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7195466.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6396351.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7086790.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6947402.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6831817.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4380911.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7081024.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7196105.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6002637.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6736056.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5274807.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5647320.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5725880.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4895726.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5388336.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5889682.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5121352.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5494908.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5904080.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5770358.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7024102.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5411956.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6058079.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5282001.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4892622.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6251887.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7098059.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5799798.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6472462.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5969780.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7197050.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6655982.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4763214.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4878019.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5185090.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5486153.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6572673.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5821279.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6651082.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7073256.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6347101.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6376496.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7120332.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5749334.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7166096.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4532448.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7151477.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6635415.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7061988.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7003495.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4621361.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4225275.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6257100.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4661751.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7164531.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4582048.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6832001.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6709475.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4750091.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\4938829.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7092225.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6914387.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4946732.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5761456.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6183332.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5739179.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4930552.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5734864.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6549018.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6340705.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5142531.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6772836.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7039930.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6028867.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5860252.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6635023.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6122257.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4716047.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6750652.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4822948.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6974921.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5351684.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5437485.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6579192.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6500621.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5909141.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5980197.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6920596.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6858337.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5392474.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4344310.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6863219.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7075643.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4772706.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\4424765.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7136971.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6777732.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6161972.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6959751.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7025315.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5584069.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4913476.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4662344.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4897600.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6062589.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5518883.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5813120.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6477549.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7156563.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6863842.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7197880.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5558725.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6490840.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6804950.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6862343.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6464989.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6984896.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6442247.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5673187.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6477556.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5146795.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6820696.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5824244.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6493823.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6727536.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6000887.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6562759.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6478342.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4121645.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6288762.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4903942.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6014988.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4765831.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6959737.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5985280.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6546565.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6206959.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6161147.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6105900.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6260185.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6042781.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6807716.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6560985.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6506483.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5849485.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5535585.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5822589.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4436642.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6854601.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6657706.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5626474.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6323313.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7157126.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5918155.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6698236.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4049927.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6626616.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5138518.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6914819.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6963629.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4328227.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5889029.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5652511.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6471888.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5193234.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7021950.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5028999.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7150217.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5585725.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6453755.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4246552.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7171956.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5168820.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5467650.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6222576.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6619473.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5543960.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4953648.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\6990496.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5908977.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5727660.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7101961.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5449289.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6019892.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6605203.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6790968.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6577221.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6285483.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6635417.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7035978.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4766240.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6730598.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7157741.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5800740.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7048502.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5050843.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4595295.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6807556.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6784316.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5131655.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5524980.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5359763.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6552374.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\5367528.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4246550.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5599811.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7065366.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5381387.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6894971.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6472384.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7055766.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7068583.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6500661.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7053198.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5080602.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6757762.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5056396.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6122248.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6437037.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5895982.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5909001.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6877095.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7146990.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6585064.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6069490.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6585736.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6608151.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6260870.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4494944.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6274345.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6548827.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7136956.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5431808.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6885424.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6964920.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6672851.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7032017.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5506933.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6311501.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6979435.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6212626.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5979624.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5543455.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7084587.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6319355.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5669293.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6770797.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6277414.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5794888.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5749873.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6939870.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6060836.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5513017.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4644478.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7119661.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5115874.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5965795.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6149336.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6235148.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5300165.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6612130.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6136406.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5385946.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5342579.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4782878.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4043791.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4414238.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6469327.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7204002.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6659968.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6358505.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6229389.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5788530.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5335396.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7067902.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6300036.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6964150.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5732846.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5924435.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5726748.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4833109.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7174491.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5613945.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6240943.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6128833.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5148253.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5843415.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7099439.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4887948.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6726478.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7097974.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6488105.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5275070.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5723388.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5200309.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5552361.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6802654.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7113319.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4795834.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4887407.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6795442.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6178911.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6877358.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6322184.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6877955.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4608386.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5197318.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7201519.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5716540.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5455309.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5126687.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5355698.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5165887.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5261774.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6470804.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5801618.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5690351.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6609652.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6852803.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7094629.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5742384.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5982180.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6124943.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7040743.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4970984.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4851212.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4213796.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5767042.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6971686.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7128639.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5527725.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5010499.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5358121.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5834092.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7058750.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4185396.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5038737.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7133866.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6105579.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5042329.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6574761.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6781864.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5903145.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6983105.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7189733.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7160531.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6192503.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6872660.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4578645.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6971748.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6924077.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4563275.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4666565.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6327918.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6486123.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5043689.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6538438.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5805243.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7132124.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7082577.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6521365.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6277824.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7169255.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6446533.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4472591.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5309932.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5223047.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7011987.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7161373.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6979434.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6329913.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5218027.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5336624.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6528440.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6825389.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4339642.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6233416.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5763758.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7004000.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6530043.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5511496.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7034967.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5492807.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6961599.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\5318610.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6183726.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7053096.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5511495.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6954626.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6714802.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7033019.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5980608.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5150558.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5543140.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6542253.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4283119.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7194124.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6447806.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5739765.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5784276.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5660555.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5869775.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6130043.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7007778.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4435659.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5399133.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6607154.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6089090.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4859840.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5048901.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5602277.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5648048.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6414099.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6484083.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6633801.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7136281.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6900336.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6295472.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7142494.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4123660.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6190723.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6198098.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5355701.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5796180.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6120243.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6773912.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5288238.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7020337.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6585062.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5741822.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5825402.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5816166.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4943315.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6280535.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5975150.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4090967.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5976922.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5611738.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7096694.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7093350.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7107817.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7047656.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6909983.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5096430.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6134714.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7059683.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7003411.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6579099.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4867051.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5355700.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5121484.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5721040.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4166521.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5813578.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5048267.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4947792.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5330035.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4217797.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7115776.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7140479.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\4824263.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5274710.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6984046.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7094669.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5429482.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6032595.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5753640.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7069995.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5295757.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\4449967.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5860885.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6596792.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7100020.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4969207.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5834613.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5667897.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7158924.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5602271.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5645629.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4686200.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7074387.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5733872.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6697197.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5645318.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5812747.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4493599.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4599924.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6927820.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6482319.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5023810.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7129233.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5772193.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4683635.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6500797.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5726412.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6985026.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4903941.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\5312511.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5197315.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5975042.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6250327.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5413956.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5893781.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6723767.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4975783.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4791622.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5950048.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5599819.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6510164.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5174289.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5902524.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6491872.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5816930.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6553118.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6799704.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7203898.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6952587.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6655242.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7087741.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6648049.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7164241.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6753323.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6379624.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4716036.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6896878.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5590264.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5814733.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5381609.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4873693.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7082714.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6212682.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5262485.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4244821.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6080785.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5827258.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4666653.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6752865.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7063239.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7100373.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4980517.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7120099.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5595943.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6422998.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5068020.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5688346.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5811533.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4780084.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5078496.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7174258.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4660574.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5643567.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5845427.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6238038.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6949042.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6384756.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6954125.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5595076.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6179860.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6994932.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6386554.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5415039.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6241630.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5381791.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5739163.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5177323.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5697974.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5576141.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6279616.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5215021.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4922149.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6712701.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6361159.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6683655.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6818662.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6595591.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5918617.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4263451.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\4813719.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5748169.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5256240.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6219216.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5287788.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5596444.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6863320.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6586095.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5669839.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4465047.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6978939.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6658543.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4921743.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5620048.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5427952.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5912458.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4852653.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5340575.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\4879825.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4235599.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7014935.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4755166.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4668996.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7002032.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6726683.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6479237.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5882076.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5585206.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5079538.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6899343.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4831821.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5895799.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6273509.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6792497.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6526948.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5282629.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6816142.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7116962.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6790746.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6813189.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6309901.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6203060.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5099921.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6637288.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5260616.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7141224.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6999215.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7064551.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4436778.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7053279.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6086937.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4761436.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5788748.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5685023.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5991810.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5153951.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4972517.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6692620.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7081857.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7183096.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6644576.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4673573.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6945324.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6398975.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5246553.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7168837.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4605807.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5093761.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7078149.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7044242.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6950585.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6472385.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7011325.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6494545.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6690704.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4933589.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5484839.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5437602.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5652187.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4753282.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6915221.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4973632.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6811813.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6374525.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5657141.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6710815.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7130457.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6711766.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4940605.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6154080.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5611742.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7096505.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4958311.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6165419.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5531424.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6650476.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6924613.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4889884.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5772988.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4867612.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7196044.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5762549.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7203023.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5711741.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6302211.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5600380.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5821691.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7159271.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6086367.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6922048.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6229261.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7179249.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5554897.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6477552.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7188076.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5615166.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5446409.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5114532.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4898215.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4114178.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5611763.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7131941.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5089690.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6900368.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6783914.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4976247.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6896704.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4745137.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6871894.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5254438.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7157555.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7056429.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6860415.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7088210.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5052968.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4866670.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6957594.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5857755.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6222513.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6820518.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5278326.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7043047.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5197324.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6213410.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6389279.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7137710.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4361085.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7147567.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4844384.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5851152.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6393330.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6019876.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6814247.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6842725.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5681499.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6995236.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4095390.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5782131.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\5049314.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5757078.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6470456.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6623902.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4041046.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6159452.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7023954.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4850089.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5671468.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7133704.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4478742.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7038084.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5228152.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6932466.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\6753317.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5111523.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5606720.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4790344.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7182421.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4953625.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4866037.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\6111778.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6992582.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7177078.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6168993.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4205180.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5364891.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6600986.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6982548.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4882468.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7124827.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5290034.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5498300.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7022974.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5340193.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6439355.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6108255.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7082296.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5591897.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6374338.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5568613.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6164910.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6789596.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6859050.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6743894.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5748964.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6229132.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5871472.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5609743.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5058643.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7076499.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6931765.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6480761.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5466854.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4101718.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\4335590.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7172770.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5510478.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5613483.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4888763.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6186706.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6261192.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6654746.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6545980.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6134222.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6247826.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6391731.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4915143.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6242658.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7183849.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5835097.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6597268.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5680792.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5618625.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5518062.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6875922.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6865661.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5029647.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7096560.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6860383.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6564439.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5749787.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5047180.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6772520.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6510406.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5922810.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5611748.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5813148.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5023778.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4709477.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5981214.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5801589.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6986762.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5294456.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7177451.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6872927.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6007401.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7114474.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6577608.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6772470.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4088044.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7118886.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7023893.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7141037.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4431924.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5698951.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4567990.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5358151.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4055034.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5644534.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5683819.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5645898.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6732414.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4637519.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5110789.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7020930.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6449261.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5302654.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5500706.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5513202.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6768722.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5269469.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6009621.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6980497.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5708021.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5766309.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6339784.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6393275.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6837121.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6423766.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6649678.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6537524.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4786237.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6240428.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4755172.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4199936.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6947813.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6919027.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5423196.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5649725.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5578822.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6888676.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5546582.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6572146.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5422542.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6362885.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6632852.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7032190.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6352242.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6534729.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6958236.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7130200.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5813527.jpg",
+      "label": 1
+    }
+  ],
+  "test": [
+    {
+      "path": "images\\other\\5858333.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5754641.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5690690.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5290652.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4761149.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5766092.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5665250.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6441428.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6888482.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7113866.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6861985.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6399169.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4895478.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6255314.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5967216.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5597266.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6066008.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6371589.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4209778.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5449234.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7125726.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4806795.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7199464.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6778108.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4983757.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5361170.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7013863.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5697976.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6442481.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7082287.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6918869.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7130389.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6404611.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5246297.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6459893.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6358666.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6871917.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6406933.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6156865.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5877732.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6019772.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7106829.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6779751.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6379626.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5433659.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6709288.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5377523.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5532897.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4951019.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4179328.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6671738.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5816186.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7078854.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6085550.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7046031.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5737334.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4990623.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6863294.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7049910.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6885387.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6257993.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4259702.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6908815.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7201837.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4973873.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4831467.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7065965.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6901462.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7070801.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6611845.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5529430.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6109229.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6370819.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5112191.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7108070.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5278729.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5160681.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5021418.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4704827.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7115361.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6345302.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7159410.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6998650.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6909683.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4448609.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6752123.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6323806.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4044524.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7080376.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5872449.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5638478.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6582701.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5667069.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5836576.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4755171.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6188139.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6188141.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6900338.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4213924.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6780267.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5296211.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6826761.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6183736.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6511865.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6699703.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6600774.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6122255.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6155997.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6988730.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4803842.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6498413.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6317062.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6079395.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7188128.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5009192.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5342605.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6738483.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6267290.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5896679.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\5656761.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6051798.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7046175.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6892419.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6757109.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4648289.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5067503.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6661913.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4206573.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4881094.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6666696.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6770856.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7119607.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4029863.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5052991.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6617207.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6683117.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\delinquent\\4298393.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6942727.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6556629.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5985427.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6096295.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7068771.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6231789.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6437641.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5197304.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6235196.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7043051.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4616111.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5612692.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6919575.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6692432.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5671033.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7034350.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4755235.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6142401.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6924784.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6582034.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5261556.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5399113.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4743389.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6057401.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6400465.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6077156.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4686433.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4746162.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4972991.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4849383.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5848530.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6913313.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6510016.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5742319.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4870221.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\4445587.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5481528.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4921795.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6896291.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6444310.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6647083.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6393999.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6235170.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5657670.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6890859.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5279260.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4961225.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6865588.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5713622.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5931310.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5615887.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6558683.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6685281.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7173287.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7186004.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4912991.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4794352.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7175294.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6910687.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4879206.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6970580.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4921923.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7170746.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6978011.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6174393.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7165819.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6440703.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6268973.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7095134.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6432771.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5279134.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5764829.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5988794.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5445882.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5714346.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6230087.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4753087.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5649385.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7034325.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6911395.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5559187.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5845111.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5554006.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4918715.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5614665.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5576234.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4810002.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7145644.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4898385.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4682216.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5505335.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5708020.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5762654.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6254119.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6534827.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5795479.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7156763.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5899142.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7079495.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6331425.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5728967.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6654554.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7090868.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6586693.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6951941.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5808281.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6921080.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6179862.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5781589.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6190771.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6447374.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7059475.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\6927375.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6512016.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7178526.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6744495.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4759984.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5645721.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5527073.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4824475.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6943150.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6859732.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4947688.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5403395.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7193641.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5382008.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7068730.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5506674.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5291820.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5984337.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7145106.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5756543.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7108049.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7128696.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7119741.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5736874.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5698846.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6988147.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4935232.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6740993.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6797091.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5864626.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5197312.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6355707.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7119503.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4767312.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6193862.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5149326.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6347979.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7095480.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6551735.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7048780.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6592780.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5604463.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7027389.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6627046.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6731037.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5482904.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6770650.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6630904.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5762533.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5708008.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5996354.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5214987.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6474260.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6360964.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5317812.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6463902.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6914558.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5715258.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5255767.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6605068.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4831726.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7198614.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5298424.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4578414.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\4668448.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6624343.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\7077706.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5953647.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6615433.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4886616.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6621606.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6577387.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5664587.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6868697.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6465276.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6208042.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6189866.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\5856202.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4625523.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5929071.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6869402.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4308552.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6161150.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6887370.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4115559.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5430975.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6903307.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6108258.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5381225.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5505103.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6016544.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\6955596.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4669078.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6939088.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6042819.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\4240255.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5034877.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7082361.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6032265.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5596000.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6673723.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\lolita\\7000348.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\lolita\\7132018.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4852184.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\4491611.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5293628.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6108278.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6436602.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6867612.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6372223.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6988776.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7041459.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5681096.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\7180542.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6394757.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5252497.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\6820734.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\5872317.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5708616.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6339392.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\7081692.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6394923.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6821679.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4947135.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6715302.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\7045774.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6776100.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4246553.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6630931.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6860330.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\7149540.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\6151572.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\other\\5786776.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\jirai_kei\\7137085.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6127406.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6337101.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5678738.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5023719.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5681561.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\4578620.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\delinquent\\6078759.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6874957.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\6546361.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\4855986.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5311996.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\jirai_kei\\6795004.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\6547752.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\5889876.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\other\\5659360.jpg",
+      "label": 0
+    },
+    {
+      "path": "images\\gyaru\\5597131.jpg",
+      "label": 1
+    },
+    {
+      "path": "images\\gyaru\\6129639.jpg",
+      "label": 1
+    }
+  ]
+}
