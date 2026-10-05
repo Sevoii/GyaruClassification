@@ -57,6 +57,24 @@ then runs the requested number of additional epochs with a fresh optimizer:
 .\.venv\Scripts\python.exe src\finetune_mobilenetv4.py --splits artifacts\splits_seed_42.json --resume artifacts\gyaru_v2.pt --epochs 20 --patience 6 --output artifacts\gyaru_v2_continued.pt
 ```
 
+Train a new binary gyaru head from the pretrained base SigLIP encoder with the
+same train and validation partitions. The base encoder is frozen; only the new
+head is trained, and the best head is selected by validation F1. The test
+partition remains untouched. The output bundle contains the binary head; it
+does not depend on or overwrite any existing head bundle. Substyle output is
+unavailable for this newly trained binary-only bundle.
+
+```powershell
+.\.venv\Scripts\python.exe src\train_siglip.py --output artifacts\gyaru_siglip_heads.safetensors
+$env:GYARU_SIGLIP_HEADS = "artifacts\gyaru_siglip_heads.safetensors"
+.\.venv\Scripts\python.exe src\app.py
+```
+
+The script starts from `google/siglip-base-patch16-384` and uses
+`artifacts\splits_seed_42.json` by default. Choose a new output filename for
+each training run. It writes a sibling `.history.json` with per-epoch validation
+metrics.
+
 Images are EXIF-oriented, converted to RGB, mildly rotated with an expanded
 canvas, and resized with aspect ratio preserved and padding. Training also uses
 horizontal flips and mild color changes. Evaluation is deterministic. Rotation

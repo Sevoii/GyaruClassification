@@ -1,9 +1,12 @@
 """SigLIP vision embeddings with portable NumPy logistic-regression heads."""
 
 import numpy as np
+import os
+import json
 import torch
 from pathlib import Path
 from PIL import Image, ImageOps
+from safetensors.numpy import load_file
 from transformers import AutoImageProcessor, SiglipVisionModel
 
 from models.interface import Classifier
@@ -27,13 +30,21 @@ class SiglipGyaruClassifier(Classifier):
     display_name = "SigLIP Gyaru Classifier"
 
     def load(self, device):
-        bundle = Path(__file__).with_name("model_internals") / "heads.npz"
-        data = np.load(bundle, allow_pickle=False)
-        self.classes = [str(c) for c in data["main_classes"]]
+        default_bundle = Path(__file__).with_name("model_internals") / "heads.safetensors"
+        bundle = Path(os.environ.get("GYARU_SIGLIP_HEADS", default_bundle))
+        if bundle.suffix != ".safetensors":
+            raise ValueError(f"SigLIP heads must use .safetensors: {bundle}")
+        data = load_file(str(bundle))
+        from safetensors import safe_open
+        with safe_open(str(bundle), framework="np") as stream:
+            details = stream.metadata() or {}
+        self.classes = json.loads(details["main_classes"])
+        self.name = details["embed_model"]
+        has_substyle = "sub_coef" in data and "sub_intercept" in data and "sub_classes" in details
+        if has_substyle:
+            self.subclasses = json.loads(details["sub_classes"])
         self.main = NpHead(data["main_coef"], data["main_intercept"])
-        self.sub = NpHead(data["sub_coef"], data["sub_intercept"])
-        self.subclasses = [str(c) for c in data["sub_classes"]]
-        self.name = str(data["embed_model"])
+        self.sub = NpHead(data["sub_coef"], data["sub_intercept"]) if has_substyle else None
         self.device = device
         self.dtype = torch.float16 if device == "cuda" else torch.float32
         self.processor = AutoImageProcessor.from_pretrained(self.name)
@@ -51,14 +62,18 @@ class SiglipGyaruClassifier(Classifier):
         probabilities = self.main.predict_proba(embedding)[0]
         ranked = sorted(zip(self.classes, probabilities), key=lambda item: -item[1])
         gyaru_p = float(probabilities[self.classes.index("gyaru")])
-        sub_probs = self.sub.predict_proba(embedding)[0]
-        subranked = sorted(zip(self.subclasses, sub_probs), key=lambda item: -item[1])
         top, confidence = ranked[0]
-        return {
+        result = {
             "top": top, "confidence": float(confidence),
             "probs": [{"label": label, "p": float(p)} for label, p in ranked],
             "gyaru_p": gyaru_p, "bw": saturation < 0.06,
-            "substyle": {"show": bool(saturation >= 0.06 and (top == "gyaru" or gyaru_p >= 0.5)),
-                         "top": subranked[0][0], "confidence": float(subranked[0][1]),
-                         "probs": [{"label": label, "p": float(p)} for label, p in subranked]},
         }
+        if self.sub is not None:
+            sub_probs = self.sub.predict_proba(embedding)[0]
+            subranked = sorted(zip(self.subclasses, sub_probs), key=lambda item: -item[1])
+            result["substyle"] = {
+                "show": bool(saturation >= 0.06 and (top == "gyaru" or gyaru_p >= 0.5)),
+                "top": subranked[0][0], "confidence": float(subranked[0][1]),
+                "probs": [{"label": label, "p": float(p)} for label, p in subranked],
+            }
+        return result
