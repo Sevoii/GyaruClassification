@@ -10036,8 +10036,8 @@
   "settings": {
     "data_dir": "data\\images",
     "splits": "artifacts\\splits_seed_42.json",
-    "output": "artifacts\\gyaru_v2_continued.pt",
-    "resume": "artifacts\\gyaru_v2.pt",
+    "output": "artifacts\\gyaru_v2_continued.safetensors",
+    "resume": "artifacts\\gyaru_v2.safetensors",
     "seed": 42,
     "epochs": 20,
     "batch_size": 16,

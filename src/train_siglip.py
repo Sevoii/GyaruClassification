@@ -88,6 +88,8 @@ def main(default_encoder: str = DEFAULT_ENCODER,
     args = parser.parse_args()
     if min(args.epochs, args.batch_size) < 1 or args.workers < 0 or args.learning_rate <= 0:
         parser.error("Epochs, batch size, and learning rate must be positive; workers >= 0")
+    if args.output.suffix != ".safetensors":
+        parser.error("--output must end in .safetensors")
     if args.output.exists():
         parser.error("Output already exists; choose a new --output to preserve prior results")
     if not args.splits.is_file():

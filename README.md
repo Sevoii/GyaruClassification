@@ -101,7 +101,7 @@ pretrained configuration and is saved in the checkpoint.
 
 Evaluation accepts checkpoint paths (positional paths or repeatable
 `--checkpoint` options) and packaged model IDs (repeatable `--model`). With no
-selection, it evaluates every `.pt` file in `artifacts/` and discovers every
+selection, it evaluates every `.safetensors` file in `artifacts/` and discovers every
 classifier package under `src/models/`, including SigLIP. Packaged models use
 the split in `artifacts/splits_seed_42.json` by default; pass `--splits` to use
 another manifest. Each model gets its own `metrics.json` and `predictions.csv`,
