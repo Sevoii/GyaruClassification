@@ -1,0 +1,1 @@
+"""SigLIP embedding classifier bundle."""

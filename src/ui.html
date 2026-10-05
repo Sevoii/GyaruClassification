@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gyaru Check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Zen+Maru+Gothic:wght@500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<style>
+:root{
+  color-scheme:light;
+  --paper:#fffdf6; --ink:#17285c; --ink2:#5b6a9a;
+  --blue:#3a86ff; --sky:#bfe3ff; --pink:#ff5fa8; --blush:#ffd3e8; --yellow:#ffd93d; --butter:#fff1a8;
+  --display:'Mochiy Pop One','Hiragino Maru Gothic ProN','Yu Gothic',system-ui,sans-serif;
+  --body:'Zen Maru Gothic','Hiragino Maru Gothic ProN','Yu Gothic',system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  min-height:100vh;color:var(--ink);font:500 16px/1.6 var(--body);overflow-x:hidden;position:relative;
+  background:
+    radial-gradient(circle at 1px 1px,var(--sky) 1.6px,transparent 1.8px) 0 0/26px 26px,
+    var(--paper);
+}
+/* background layers */
+.blob{position:fixed;border-radius:50%;filter:blur(46px);opacity:.75;pointer-events:none;z-index:0}
+.b1{width:46vmax;height:46vmax;left:-14vmax;top:-12vmax;background:var(--blush)}
+.b2{width:42vmax;height:42vmax;right:-14vmax;top:18vh;background:var(--sky)}
+.b3{width:34vmax;height:34vmax;left:20vw;bottom:-18vmax;background:var(--butter)}
+.spark{position:fixed;width:26px;height:26px;pointer-events:none;z-index:0;opacity:0}
+.spark svg,.trail svg{width:100%;height:100%;display:block}
+.trail{position:fixed;width:16px;height:16px;pointer-events:none;z-index:50}
+main{position:relative;z-index:1;max-width:1040px;margin:0 auto;padding:36px 20px 72px;overflow-x:clip}
+
+/* title */
+header{text-align:center;position:relative}
+.kana{display:inline-block;font:400 15px var(--display);letter-spacing:.5em;color:var(--blue);margin-bottom:2px}
+h1{margin:0;font:400 clamp(64px,15vw,150px)/1 var(--display);letter-spacing:.02em;color:var(--pink);
+  -webkit-text-stroke:3px var(--ink);paint-order:stroke fill;
+  text-shadow:6px 6px 0 var(--yellow),12px 12px 0 var(--blue)}
+h1 .ltr{display:inline-block;will-change:transform}
+.tag{margin:26px auto 0;font:400 clamp(16px,2.6vw,21px) var(--display);display:inline-block;padding:2px 10px;
+  background:linear-gradient(transparent 55%,var(--butter) 55%)}
+.chips{margin:20px 0 0;display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.chip{font:400 14px var(--display);padding:5px 15px;border:3px solid var(--ink);border-radius:99px;cursor:default;user-select:none}
+.cw{display:inline-block;padding:6px 4px}
+.chip{display:inline-block;transition:box-shadow .2s}
+.chip.hot{box-shadow:4px 4px 0 var(--ink)}
+.chip small{font:inherit;opacity:.55;margin-left:6px}
+.model-picker{margin:26px auto 0;display:flex;align-items:center;justify-content:center;gap:10px;font:400 14px var(--display)}
+.model-picker select{max-width:min(80vw,340px);padding:9px 34px 9px 13px;border:3px solid var(--ink);border-radius:99px;background:#fff;color:var(--ink);font:500 14px var(--body)}
+
+/* drop zone: a ring, not a box */
+#stage{display:flex;justify-content:center;margin:46px 0 10px}
+#zone{position:relative;width:min(78vw,340px);height:min(78vw,340px);border:0;background:none;cursor:pointer;padding:0;
+  font:inherit;color:inherit;display:grid;place-items:center;outline:none}
+#zone svg.ring{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+#zone:focus-visible svg.ring circle.r1{stroke:var(--pink)}
+.zin{position:relative;text-align:center;line-height:1.25;pointer-events:none}
+.zin .big{font:400 clamp(26px,5vw,34px) var(--display);display:block}
+.zin .sm{display:block;font-size:14px;color:var(--ink2);margin-top:8px}
+.zin .ico{width:54px;height:54px;margin:0 auto 6px;display:block}
+#zoneSmall{display:none;font:400 15px var(--display)}
+
+/* loading */
+#loading{display:none;text-align:center;font:400 22px var(--display);margin:24px 0}
+#loading i{display:inline-block;width:14px;height:14px;border-radius:50%;margin:0 5px;vertical-align:middle}
+#loading i:nth-child(1){background:var(--pink)}#loading i:nth-child(2){background:var(--yellow)}#loading i:nth-child(3){background:var(--blue)}
+
+/* result */
+#out{display:none;margin-top:36px;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(24px,5vw,64px);align-items:center}
+@media(max-width:760px){#out{grid-template-columns:1fr}}
+#pic{position:relative;justify-self:center;max-width:100%;padding:16px 22px 22px 16px}
+#pv{display:block;max-width:100%;max-height:520px;border:9px solid #fff;border-radius:18px;
+  box-shadow:10px 10px 0 var(--pink),0 0 0 12px var(--ink);background:#fff}
+.tape{position:absolute;top:-22px;left:50%;width:110px;height:34px;margin-left:-55px;background:rgba(255,217,61,.85);
+  transform:rotate(-4deg);border:2px solid var(--ink)}
+#res{min-width:0}
+.eyebrow{font:400 15px var(--display);color:var(--blue);letter-spacing:.2em;margin:0}
+#top{margin:2px 0 0;font:400 clamp(46px,10vw,104px)/1.05 var(--display);overflow-wrap:anywhere;position:relative}
+#top .vl{display:inline-block}
+#jp{font:400 20px var(--display);color:var(--ink2);margin:4px 0 0}
+#conf{display:inline-block;margin-top:12px;font:400 15px var(--display);padding:3px 14px;border:3px solid var(--ink);border-radius:99px;background:var(--butter)}
+#bars{margin-top:26px}
+.row{display:grid;grid-template-columns:104px 1fr 52px;gap:12px;align-items:center;margin:11px 0}
+.row .nm{font:400 15px var(--display)}
+.row .nm small{display:block;font:500 11px var(--body);color:var(--ink2);margin-top:-2px}
+.track{height:24px;border:3px solid var(--ink);border-radius:99px;background:#fff;overflow:hidden}
+.fill{height:100%;width:0;border-right:3px solid var(--ink);border-radius:99px}
+.row.min .fill{border-right-width:0}
+.pct{font:400 15px var(--display);text-align:right}
+#subtype{display:none;margin-top:34px}
+#subTop{margin:2px 0 0;font:400 clamp(28px,5.5vw,44px)/1.1 var(--display)}
+#subTop small{font:400 18px var(--display);color:var(--ink2);margin-left:8px}
+#subHint{margin:2px 0 8px;font-size:14px;color:var(--ink2)}
+#subBars .row{grid-template-columns:104px 1fr 52px;margin:7px 0}
+#subBars .track{height:18px}
+#warn{margin-top:16px;font-size:14px;display:none}
+#warn span{background:linear-gradient(transparent 50%,var(--butter) 50%);padding:0 4px}
+.note{margin-top:30px;font-size:12.5px;color:var(--ink2);max-width:46ch}
+#err{display:none;text-align:center;color:#d1347a;font:400 16px var(--display);margin-top:16px}
+footer{margin-top:64px;text-align:center;font-size:12.5px;color:var(--ink2)}
+.star{position:absolute;width:22px;height:22px;pointer-events:none;z-index:5;left:0;top:0}
+.star svg{width:100%;height:100%;display:block}
+@media(prefers-reduced-motion:reduce){.blob{filter:blur(46px)}}
+</style>
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div id="sparks"></div>
+
+<main>
+  <header>
+    <span class="kana">ギャル判定</span>
+    <h1 id="title" aria-label="Gyaru check"></h1>
+    <p class="tag">Drop a character. Find out if she&rsquo;s a gyaru.</p>
+    <div class="chips" id="chips"></div>
+    <label class="model-picker">Model <select id="modelSelect" aria-label="Choose classifier model"></select></label>
+  </header>
+
+  <div id="stage">
+    <button id="zone" type="button" aria-label="Choose, drop, or paste an image">
+      <svg class="ring" viewBox="0 0 340 340" aria-hidden="true">
+        <circle class="r1" cx="170" cy="170" r="160" fill="none" stroke="#3a86ff" stroke-width="5" stroke-dasharray="2 17" stroke-linecap="round"/>
+        <circle class="r2" cx="170" cy="170" r="142" fill="none" stroke="#ff5fa8" stroke-width="4" stroke-dasharray="26 22" stroke-linecap="round"/>
+        <circle cx="170" cy="170" r="122" fill="#fff" fill-opacity=".72" stroke="#17285c" stroke-width="4"/>
+      </svg>
+      <span class="zin" id="zoneBig">
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1l2.6 7.4L22 11l-7.4 2.6L12 21l-2.6-7.4L2 11l7.4-2.6z" fill="#ffd93d" stroke="#17285c" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        <span class="big">Drop a pic</span>
+        <span class="sm">or click &middot; or paste (Ctrl+V)</span>
+      </span>
+      <span class="zin" id="zoneSmall">again</span>
+    </button>
+    <input id="file" type="file" accept="image/*" hidden>
+  </div>
+
+  <div id="loading"><i></i><i></i><i></i><div style="margin-top:6px">checking the vibes</div></div>
+  <div id="err"></div>
+
+  <section id="out" aria-live="polite">
+    <div id="pic"><span class="tape"></span><img id="pv" alt="your upload"></div>
+    <div id="res">
+      <p class="eyebrow">VERDICT</p>
+      <h2 id="top"></h2>
+      <p id="jp"></p>
+      <span id="conf"></span>
+      <div id="bars"></div>
+      <div id="subtype">
+        <p class="eyebrow">GYARU TYPE</p>
+        <h3 id="subTop"></h3>
+        <p id="subHint"></p>
+        <div id="subBars"></div>
+      </div>
+      <p id="warn"><span></span></p>
+    </div>
+  </section>
+  <footer>made for testing &middot; nothing you upload is saved</footer>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const HAS=typeof anime!=='undefined';
+const A=o=>{ if(!HAS) return null; if(RM){o={...o,duration:1,delay:0,loop:false}} return anime(o) };
+const rnd=(a,b)=>a+Math.random()*(b-a);
+
+const CLASSES={
+  not_gyaru: {en:'Not gyaru', jp:'', color:'#8fd3ff'},
+  gyaru:     {en:'Gyaru',     jp:'ギャル',   color:'#ff5fa8'},
+  jirai_kei: {en:'Jirai kei', jp:'地雷系',   color:'#3a86ff'},
+  delinquent:{en:'Delinquent',jp:'ヤンキー', color:'#ffd93d'},
+  lolita:    {en:'Lolita',    jp:'ロリィタ', color:'#8fd3ff'},
+  other:     {en:'Other',     jp:'その他',   color:'#e7ebf5'}
+};
+const STAR='<svg viewBox="0 0 24 24"><path d="M12 1l2.6 7.4L22 11l-7.4 2.6L12 21l-2.6-7.4L2 11l7.4-2.6z" fill="COLOR" stroke="#17285c" stroke-width="1.5" stroke-linejoin="round"/></svg>';
+const SUBS={
+  kogal: {en:'Kogal',        jp:'コギャル',  hint:'school-uniform gyaru',  color:'#3a86ff'},
+  kuro:  {en:'Kuro gyaru',   jp:'黒ギャル',  hint:'tanned / ganguro-style', color:'#ffd93d'},
+  casual:{en:'Casual gyaru', jp:'カジュアル', hint:'everyday and street looks', color:'#ffb3d7'}
+};
+const PAL=['#ff5fa8','#ffd93d','#3a86ff','#8fd3ff','#ffd3e8'];
+
+/* title letters */
+'GYARU'.split('').forEach(c=>{const s=document.createElement('span');s.className='ltr';s.textContent=c;$('title').appendChild(s)});
+/* class chips */
+/* The wrapper (.cw) takes the entrance animation and the hover events; the chip inside takes the hover
+   transform. Keeping them separate stops the two animations fighting and stops the pointer flickering
+   in and out of an element that is itself moving. The hover state holds until the pointer leaves. */
+Object.values(CLASSES).forEach((c,i)=>{
+  const w=document.createElement('span');w.className='cw';
+  const e=document.createElement('span');e.className='chip';e.style.background=c.color;
+  e.style.color=c.color==='#3a86ff'?'#fff':'#17285c';e.innerHTML=c.en+'<small>'+c.jp+'</small>';
+  w.appendChild(e);$('chips').appendChild(w);
+  const to=(on)=>{if(!HAS)return;anime.remove(e);
+    A(on?{targets:e,scale:1.14,rotate:i%2?-5:5,translateY:-5,duration:700,easing:'easeOutElastic(1,.55)'}
+        :{targets:e,scale:1,rotate:0,translateY:0,duration:350,easing:'easeOutQuad'})};
+  w.addEventListener('pointerenter',()=>{e.classList.add('hot');to(true)});
+  w.addEventListener('pointerleave',()=>{e.classList.remove('hot');to(false)});
+});
+/* twinkling sparkles */
+for(let i=0;i<18;i++){const s=document.createElement('div');s.className='spark';s.style.left=rnd(2,96)+'vw';s.style.top=rnd(2,94)+'vh';
+  s.innerHTML=STAR.replace('COLOR',PAL[i%PAL.length]);$('sparks').appendChild(s)}
+
+if(HAS){
+  A({targets:'#title .ltr',translateY:[-90,0],rotate:[()=>anime.random(-30,30),0],opacity:[0,1],delay:anime.stagger(80),duration:1400,easing:'easeOutElastic(1,.55)'});
+  A({targets:'.kana, .tag, .cw',translateY:[20,0],opacity:[0,1],delay:anime.stagger(70,{start:500}),easing:'easeOutQuad',duration:700});
+  A({targets:'#zone',scale:[0.2,1],rotate:['-40deg','0deg'],opacity:[0,1],delay:900,duration:1400,easing:'easeOutElastic(1,.6)'});
+  A({targets:'.b1',translateX:[0,90],translateY:[0,60],direction:'alternate',loop:true,duration:9000,easing:'easeInOutSine'});
+  A({targets:'.b2',translateX:[0,-80],translateY:[0,-70],direction:'alternate',loop:true,duration:11000,easing:'easeInOutSine'});
+  A({targets:'.b3',translateX:[0,100],translateY:[0,-40],direction:'alternate',loop:true,duration:13000,easing:'easeInOutSine'});
+  A({targets:'.spark',opacity:[0,.9],scale:[0.2,1],rotate:()=>anime.random(-60,60),direction:'alternate',loop:true,
+     duration:()=>anime.random(900,2200),delay:()=>anime.random(0,2500),easing:'easeInOutSine'});
+  A({targets:'#zone .r1',rotate:360,duration:30000,loop:true,easing:'linear'});
+  A({targets:'#zone .r2',rotate:-360,duration:22000,loop:true,easing:'linear'});
+  A({targets:'#zoneBig',translateY:[-5,5],direction:'alternate',loop:true,duration:1700,easing:'easeInOutSine'});
+}
+document.querySelectorAll('#zone .r1,#zone .r2').forEach(c=>c.style.transformOrigin='170px 170px');
+
+/* sparkle trail */
+let last=0;
+if(HAS&&!RM) addEventListener('pointermove',e=>{
+  const n=performance.now();if(n-last<55)return;last=n;
+  const t=document.createElement('div');t.className='trail';t.style.left=e.clientX-8+'px';t.style.top=e.clientY-8+'px';
+  t.innerHTML=STAR.replace('COLOR',PAL[Math.floor(Math.random()*PAL.length)]);document.body.appendChild(t);
+  anime({targets:t,translateX:rnd(-18,18),translateY:rnd(10,40),scale:[1,0],rotate:rnd(-90,90),opacity:[1,0],duration:700,easing:'easeOutQuad',complete:()=>t.remove()});
+});
+
+/* input handling */
+const zone=$('zone'),file=$('file');
+zone.addEventListener('click',()=>file.click());
+file.addEventListener('change',()=>{if(file.files[0])run(file.files[0]);file.value=''});
+['dragenter','dragover'].forEach(t=>document.addEventListener(t,e=>{e.preventDefault();grow(true)}));
+['dragleave','drop'].forEach(t=>document.addEventListener(t,e=>{e.preventDefault();grow(false)}));
+document.addEventListener('drop',e=>{const f=[...e.dataTransfer.files].find(f=>f.type.startsWith('image/'));if(f)run(f)});
+document.addEventListener('paste',e=>{const it=[...e.clipboardData.items].find(i=>i.type.startsWith('image/'));if(it)run(it.getAsFile())});
+let big=false;
+function grow(on){if(on===big)return;big=on;A({targets:'#zone',scale:on?1.12:1,duration:450,easing:'easeOutElastic(1,.6)'})}
+
+function compactZone(){
+  if(zone.dataset.compact)return;zone.dataset.compact=1;
+  $('zoneBig').style.display='none';$('zoneSmall').style.display='block';
+  const w=window.innerWidth<500?120:150;
+  A({targets:'#zone',width:w,height:w,duration:700,easing:'easeOutBack'});
+  $('stage').style.margin='18px 0 6px';
+}
+
+let busy=false;
+async function loadModels(){
+  const select=$('modelSelect');
+  try{
+    const response=await fetch('/models');if(!response.ok)throw new Error('Could not load model list');
+    const models=await response.json();
+    select.replaceChildren(...models.map(m=>{const option=document.createElement('option');option.value=m.id;option.textContent=m.name;return option}));
+    if(models.some(m=>m.id==='gyaru_siglip'))select.value='gyaru_siglip';
+  }catch(e){select.innerHTML='<option value="gyaru_siglip">SigLIP Gyaru Classifier</option>';console.error(e)}
+}
+loadModels();
+async function run(f){
+  if(busy)return;busy=true;
+  $('err').style.display='none';compactZone();
+  $('out').style.display='none';$('loading').style.display='block';
+  const dots=A({targets:'#loading i',translateY:[0,-16],direction:'alternate',loop:true,delay:HAS?anime.stagger(140):0,duration:380,easing:'easeInOutSine'});
+  $('pv').src=URL.createObjectURL(f);
+  try{
+    const r=await fetch('/predict?model='+encodeURIComponent($('modelSelect').value),{method:'POST',body:f});
+    if(!r.ok)throw new Error((await r.text())||r.status);
+    const d=await r.json();
+    if(dots)dots.pause();$('loading').style.display='none';show(d);
+  }catch(e){
+    if(dots)dots.pause();$('loading').style.display='none';
+    $('err').textContent='Could not read that file: '+e.message;$('err').style.display='block';
+  }
+  busy=false;
+}
+
+function burst(origin,colors,n){
+  const r=origin.getBoundingClientRect();
+  for(let i=0;i<n;i++){
+    const s=document.createElement('div');s.className='star';s.style.position='fixed';
+    s.style.left=r.left+r.width/2+'px';s.style.top=r.top+r.height/2+'px';
+    s.innerHTML=STAR.replace('COLOR',colors[i%colors.length]);document.body.appendChild(s);
+    const a=rnd(0,Math.PI*2),d=rnd(90,300);
+    anime({targets:s,translateX:Math.cos(a)*d,translateY:Math.sin(a)*d+rnd(0,80),rotate:rnd(-360,360),scale:[rnd(.6,1.6),0],opacity:[1,0],
+      duration:rnd(900,1700),easing:'easeOutCubic',complete:()=>s.remove()});
+  }
+}
+
+function show(d){
+  const c=CLASSES[d.top]||{en:d.top,jp:'',color:'#e7ebf5'};
+  $('out').style.display='grid';
+  const top=$('top');top.innerHTML='';
+  [...c.en].forEach(ch=>{const s=document.createElement('span');s.className='vl';s.textContent=ch===' '?' ':ch;top.appendChild(s)});
+  top.style.color=d.top==='other'?'#17285c':c.color;
+  top.style.webkitTextStroke='3px #17285c';top.style.paintOrder='stroke fill';
+  top.style.textShadow='5px 5px 0 '+(d.top==='gyaru'?'#ffd93d':'#fff1a8');
+  $('jp').textContent=c.jp;
+  $('conf').textContent=(d.confidence*100).toFixed(0)+'% sure';
+  $('bars').innerHTML=d.probs.map((p,i)=>{const k=CLASSES[p.label]||{en:p.label,jp:'',color:'#e7ebf5'};
+    return `<div class="row"><div class="nm">${k.en}<small>${k.jp}</small></div><div class="track"><div class="fill" data-w="${(p.p*100).toFixed(1)}" style="background:${k.color}"></div></div><div class="pct" data-p="${(p.p*100).toFixed(0)}">0%</div></div>`}).join('');
+  const sb=d.substyle,st=$('subtype');
+  if(sb&&sb.show){
+    const k=SUBS[sb.top]||{en:sb.top,jp:'',hint:'',color:'#e7ebf5'};
+    const unsure=sb.confidence<0.5;
+    $('subTop').innerHTML=(unsure?'Maybe ':'')+k.en+'<small>'+k.jp+'</small>';
+    $('subHint').textContent=k.hint+(unsure?' (low confidence)':'')+' · '+(sb.confidence*100).toFixed(0)+'%';
+    $('subBars').innerHTML=sb.probs.map(p=>{const q=SUBS[p.label]||{en:p.label,jp:'',color:'#e7ebf5'};
+      return `<div class="row"><div class="nm">${q.en}<small>${q.jp}</small></div><div class="track"><div class="fill sf" data-w="${(p.p*100).toFixed(1)}" style="background:${q.color}"></div></div><div class="pct sp" data-p="${(p.p*100).toFixed(0)}">0%</div></div>`}).join('');
+    st.style.display='block';
+  } else st.style.display='none';
+  const w=$('warn');
+  const msg=d.confidence<0.5?'Close call. The top two classes are near each other, so treat this as a guess.'
+    :(d.top!=='gyaru'&&d.gyaru_p>=0.3?`Gyaru is still at ${(d.gyaru_p*100).toFixed(0)}%, so this one is borderline.`:'');
+  w.style.display=msg?'block':'none';w.firstChild.textContent=msg;
+
+  if(!HAS){document.querySelectorAll('.fill').forEach(f=>f.style.width=f.dataset.w+'%');document.querySelectorAll('.pct').forEach(p=>p.textContent=p.dataset.p+'%');return}
+  const hasSub=sb&&sb.show;
+  const tl=anime.timeline({easing:'easeOutExpo'});
+  tl.add({targets:'#pic',opacity:[0,1],scale:[0.2,1],rotate:['-24deg','-2deg'],duration:1100,easing:'easeOutElastic(1,.65)'})
+    .add({targets:'.eyebrow, #jp, #conf',opacity:[0,1],translateX:[-30,0],delay:anime.stagger(90),duration:600},'-=800')
+    .add({targets:'#top .vl',translateY:[70,0],rotate:()=>anime.random(-18,18),opacity:[0,1],delay:anime.stagger(45),duration:900,easing:'easeOutElastic(1,.6)'},'-=700')
+    .add({targets:'.row',opacity:[0,1],translateX:[40,0],delay:anime.stagger(80),duration:500},'-=600')
+    .add({targets:'#bars .fill',width:el=>el.dataset.w+'%',delay:anime.stagger(90),duration:1300,easing:'easeOutElastic(1,.85)'},'-=500');
+  if(hasSub)tl.add({targets:'#subtype',opacity:[0,1],translateY:[24,0],duration:600},'-=500')
+    .add({targets:'#subBars .fill',width:el=>el.dataset.w+'%',delay:anime.stagger(110),duration:1100,easing:'easeOutElastic(1,.85)'},'-=300');
+  document.querySelectorAll('.pct').forEach((el,i)=>{const o={v:0};
+    anime({targets:o,v:+el.dataset.p,round:1,duration:1200,delay:(el.classList.contains('sp')?1700:900)+i*90,easing:'easeOutExpo',update:()=>{el.textContent=o.v+'%'}})});
+  document.querySelectorAll('#out .fill').forEach(f=>{if(+f.dataset.w<2)f.parentNode.parentNode.classList.add('min')});
+  if(!RM){
+    const colors=d.top==='gyaru'?PAL:[c.color,'#ffffff','#17285c'];
+    setTimeout(()=>burst($('top'),colors,d.top==='gyaru'?36:14),700);
+    if(d.top==='gyaru')A({targets:'#top',translateY:[0,-8],direction:'alternate',loop:4,duration:260,easing:'easeInOutSine',delay:1500});
+  }
+  if(w.style.display!=='none')A({targets:'#warn',opacity:[0,1],translateY:[10,0],delay:1600,duration:600});
+  $('out').scrollIntoView({behavior:RM?'auto':'smooth',block:'start'});
+}
+</script>
+</body>
+</html>
