@@ -45,6 +45,15 @@ app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = MAX_BYTES
 
 
+@app.before_request
+def log_request_ip():
+    """Print the direct client IP for every request handled by Flask."""
+    print(
+        f"Request from {request.remote_addr or 'unknown'}: {request.method} {request.path}",
+        flush=True,
+    )
+
+
 def get_model(model_id):
     if model_id not in MODEL_TYPES:
         abort(404, description=f"Unknown model: {model_id}")
